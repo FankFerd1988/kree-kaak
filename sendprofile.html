@@ -16,7 +16,7 @@
           console.log('LIFF initialized');
           if (liff.isLoggedIn()) {
             console.log('User is logged in');
-            liff.getProfile()
+            .getProfile()
               .then(profile => {
                 console.log('Profile retrieved', profile);
                 userProfile = profile;
