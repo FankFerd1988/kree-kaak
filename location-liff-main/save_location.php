@@ -1,6 +1,4 @@
 <?php
-include 'db.php';
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $user_id = $_POST['user_id'];
     $display_name = $_POST['display_name'];
